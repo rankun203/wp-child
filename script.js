@@ -1,1 +1,3 @@
-console.log("script.js loaded");
+window.onload = (function onLoad($) {
+  console.log("script.js loaded");
+})(jQuery);
